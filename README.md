@@ -23,8 +23,8 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/c4sU1LF8IT.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://ezgif.com/optimize/ezgif-4-5d12c904a9.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<img src='http://g.recordit.co/vGb51TmcnL.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://ezgif.com/gif-to-webp/ezgif-4-10d1aa3933.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <img src='http://g.recordit.co/Ydyfm3nBDo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
