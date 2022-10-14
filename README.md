@@ -28,3 +28,8 @@ Here's a walkthrough of implemented user stories:
 <img src='https://ezgif.com/gif-to-webp/ezgif-4-10d1aa3933.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <img src='http://g.recordit.co/Ydyfm3nBDo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+![](https://github.com/dani9608/Instagram/blob/main/1.gif)
+
+![](https://github.com/dani9608/Instagram/blob/main/2.gif)
+
