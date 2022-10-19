@@ -17,7 +17,8 @@
 		CF0D8D3328F53647006E5E9E /* InstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0D8D3228F53647006E5E9E /* InstagramTests.swift */; };
 		CF0D8D3D28F53647006E5E9E /* InstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0D8D3C28F53647006E5E9E /* InstagramUITests.swift */; };
 		CF0D8D3F28F53647006E5E9E /* InstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0D8D3E28F53647006E5E9E /* InstagramUITestsLaunchTests.swift */; };
-		CF0D8D4D28F53ED0006E5E9E /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = CF0D8D4C28F53ED0006E5E9E /* AlamofireImage */; };
+		CF3839EB28FE69A50097FA7B /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3839EA28FE69A50097FA7B /* CommentCell.swift */; };
+		CF55BAAB28FE7D32009E8A64 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = CF55BAAA28FE7D32009E8A64 /* AlamofireImage */; };
 		CFB9C23428F76172001C15F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB9C23328F76172001C15F5 /* LoginViewController.swift */; };
 		CFB9C23628F7618E001C15F5 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB9C23528F7618E001C15F5 /* FeedViewController.swift */; };
 		CFB9C23828F7D759001C15F5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB9C23728F7D759001C15F5 /* CameraViewController.swift */; };
@@ -63,6 +64,7 @@
 		CF0D8D3828F53647006E5E9E /* InstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0D8D3C28F53647006E5E9E /* InstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUITests.swift; sourceTree = "<group>"; };
 		CF0D8D3E28F53647006E5E9E /* InstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF3839EA28FE69A50097FA7B /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		CFB9C23328F76172001C15F5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CFB9C23528F7618E001C15F5 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		CFB9C23728F7D759001C15F5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -75,8 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF0D8D4D28F53ED0006E5E9E /* AlamofireImage in Frameworks */,
 				19EFD5108AFC670039867E0A /* Pods_Instagram.framework in Frameworks */,
+				CF55BAAB28FE7D32009E8A64 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +159,7 @@
 				CFB9C23528F7618E001C15F5 /* FeedViewController.swift */,
 				CFB9C23728F7D759001C15F5 /* CameraViewController.swift */,
 				CFB9C23928F7F3CC001C15F5 /* PostCell.swift */,
+				CF3839EA28FE69A50097FA7B /* CommentCell.swift */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -197,7 +200,7 @@
 			);
 			name = Instagram;
 			packageProductDependencies = (
-				CF0D8D4C28F53ED0006E5E9E /* AlamofireImage */,
+				CF55BAAA28FE7D32009E8A64 /* AlamofireImage */,
 			);
 			productName = Instagram;
 			productReference = CF0D8D1828F53646006E5E9E /* Instagram.app */;
@@ -275,7 +278,7 @@
 			);
 			mainGroup = CF0D8D0F28F53646006E5E9E;
 			packageReferences = (
-				CF0D8D4B28F53ED0006E5E9E /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				CF55BAA928FE7D32009E8A64 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
 			);
 			productRefGroup = CF0D8D1928F53646006E5E9E /* Products */;
 			projectDirPath = "";
@@ -429,6 +432,7 @@
 				CFB9C23628F7618E001C15F5 /* FeedViewController.swift in Sources */,
 				CF0D8D1E28F53646006E5E9E /* SceneDelegate.swift in Sources */,
 				CFB9C23A28F7F3CC001C15F5 /* PostCell.swift in Sources */,
+				CF3839EB28FE69A50097FA7B /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -780,7 +784,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CF0D8D4B28F53ED0006E5E9E /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+		CF55BAA928FE7D32009E8A64 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
 			requirement = {
@@ -791,9 +795,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CF0D8D4C28F53ED0006E5E9E /* AlamofireImage */ = {
+		CF55BAAA28FE7D32009E8A64 /* AlamofireImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CF0D8D4B28F53ED0006E5E9E /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			package = CF55BAA928FE7D32009E8A64 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
 			productName = AlamofireImage;
 		};
 /* End XCSwiftPackageProductDependency section */
